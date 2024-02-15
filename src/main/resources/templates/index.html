@@ -1,0 +1,23 @@
+<html layout:decorate="~{common/layouts/layout}"
+      xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security" >
+
+<head>
+    <meta charset="UTF-8">
+    <!--css/js PageByPage start-->
+    <th:block layout:fragment="cssByPage">
+    </th:block>
+    <!--css/js PageByPage end-->
+
+</head>
+
+<!-- Content-->
+<th:block layout:fragment="content">
+<h1> 메인 페이지 </h1>
+
+</th:block>
+<!--js PageByPage start-->
+<th:block layout:fragment="jsByPage">
+</th:block>
+<!--js PageByPage end-->
+<html>
